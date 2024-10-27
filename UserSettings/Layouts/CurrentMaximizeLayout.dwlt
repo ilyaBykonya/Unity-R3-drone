@@ -1,0 +1,3602 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 15}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1280
+    height: 609.3333
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 14037
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 312
+    y: 58.666668
+    width: 581.3333
+    height: 320.33334
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -166, y: -26.666687}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: -117}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 24.666666}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 24.666666}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Path
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 341.33337, y: 10.6666565}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 38.915955, y: -47.863163, z: 34.566692}
+    speed: 2
+    m_Value: {x: 38.587807, y: -47.806, z: 34.122406}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: -0.07256352, y: 0.0701673, z: -0.0051480015, w: -0.99489653}
+    speed: 2
+    m_Value: {x: -0.07256992, y: 0.0686737, z: -0.0050390637, w: -0.99498355}
+  m_Size:
+    m_Target: 188.88684
+    speed: 2
+    m_Value: 180.75296
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.039795935, y: 0.01190214, z: -0.0005041829, w: -0.9991545}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 895.3333
+    height: 609.3333
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 14038
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 895.3333
+    height: 341.33334
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 14039
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 312
+    height: 341.33334
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 58.666668
+    width: 311
+    height: 320.33334
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 24590000
+      m_LastClickedID: 22820
+      m_ExpandedIDs: 4073feff4273feff4473feff388cfeffdebcfeff5ec7feff5acafeff34d0feffa0d2feffc6dfffff18fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 312
+    y: 0
+    width: 583.3333
+    height: 341.33334
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 8}
+  - {fileID: 2}
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 312
+    y: 58.666668
+    width: 581.3333
+    height: 320.33334
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 581.3333, y: 299.33334}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -193.77777
+    m_HBaseRangeMax: 193.77777
+    m_VBaseRangeMin: -99.77779
+    m_VBaseRangeMax: 99.77779
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 1
+    m_VSlider: 1
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 581.3333
+      height: 299.33334
+    m_Scale: {x: 1.545, y: 1.545}
+    m_Translation: {x: 295.73666, y: 148.22667}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -191.41533
+      y: -95.9396
+      width: 376.26752
+      height: 193.74327
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 872, y: 480.5}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56cf596da32aa49c88d32bc55628d6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Visual Scripting Graph
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 232
+    y: 58.66667
+    width: 661.3333
+    height: 320.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  _data:
+    _json: '{"locked":false,"graphInspectorEnabled":true,"variablesInspectorEnabled":true,"isActive":false,"referenceData":{"rootObjectInstanceID":24174,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":64.0}},"right":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":334.6667,"anchor":"Left","order":-1,"controlHint":{"$content":"Unity.VisualScripting.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Unity.VisualScripting.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":232.0,"yMin":58.66667,"xMax":893.3333,"yMax":379.0},"saveChangesMessage":"Unity.VisualScripting.GraphWindow
+      has unsaved changes.","m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Visual
+      Scripting Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":232.0,"yMin":58.66667,"xMax":893.3333,"yMax":379.0},"m_SerializedDataModeController":{"m_DataMode":"Disabled","m_PreferredDataMode":"Disabled","m_SupportedDataModes":[],"isAutomatic":true},"m_ViewDataDictionary":null,"m_OverlayCanvas":{"m_LastAppliedPresetName":"Default","m_SaveData":[],"m_OverlaysVisible":true}}'
+    _objectReferences: []
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 214
+    y: 58.666668
+    width: 634.6667
+    height: 323
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 5078337123987987022, guid: 53391e451a0e55841b090fdbfeead402, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 53391e451a0e55841b090fdbfeead402, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 5078337123987987022, guid: 53391e451a0e55841b090fdbfeead402, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 341.33334
+    width: 895.3333
+    height: 267.99997
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 12}
+  - {fileID: 13}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 400
+    width: 894.3333
+    height: 246.99997
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Game/Ship/PositionSensor
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Game/Ship/PositionSensor
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\illya\Projects\sharaga\zaur\test-sensor-app
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 61.00003}
+    m_SelectedIDs: 845f0000
+    m_LastClickedID: 24452
+    m_ExpandedIDs: 000000005e590000785f00007c5f000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000005e59000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 5ed7fffff2d5ffffa6d5ffff5ad5ffff
+    m_LastClickedInstanceID: -10918
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 356
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 400
+    width: 894.3333
+    height: 246.99997
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 414
+    width: 849.6667
+    height: 232.99997
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -83424
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 895.3333
+    y: 0
+    width: 384.6667
+    height: 609.3333
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 895.3334
+    y: 58.666668
+    width: 383.6667
+    height: 588.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -151
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5cd2e0ccf7a56478ad918ff9829c5c, type: 3}
+  m_Name: NuGetForUnity
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: NuGet For Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 895.3334
+    y: 58.666668
+    width: 383.6667
+    height: 588.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  defaultIcon: {fileID: 2800000, guid: 0efa0a38ec1ce484896502259d7ee8f7, type: 3}
+  hasRefreshed: 1
+  numberToSkip: 0
+  serializableAvailablePackages:
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.AspNetCore.SignalR.Core
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.1.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.signalr.core/1.1.0/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.15
+      - <FullVersion>k__BackingField: 1.0.4
+      - <FullVersion>k__BackingField: 1.0.3
+      - <FullVersion>k__BackingField: 1.0.2
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Real-time communication framework for ASP.NET
+        Core.
+
+
+        This package was built from the source code at https://github.com/aspnet/SignalR/tree/a9def470e3b8e1480c55d1c311e4b37472140307'
+      <TotalDownloads>k__BackingField: 80508373
+      <LicenseUrl>k__BackingField: https://raw.githubusercontent.com/aspnet/AspNetCore/2.0.0/LICENSE.txt
+      <ProjectUrl>k__BackingField: https://asp.net/
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Microsoft.AspNetCore.SignalR.Core
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.AspNetCore.SignalR
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.1.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.signalr/1.1.0/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.4
+      - <FullVersion>k__BackingField: 1.0.3
+      - <FullVersion>k__BackingField: 1.0.2
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Components for providing real-time bi-directional
+        communication across the Web.
+
+
+        This package was built from the source
+        code at https://github.com/aspnet/SignalR/tree/a9def470e3b8e1480c55d1c311e4b37472140307'
+      <TotalDownloads>k__BackingField: 69861838
+      <LicenseUrl>k__BackingField: https://raw.githubusercontent.com/aspnet/AspNetCore/2.0.0/LICENSE.txt
+      <ProjectUrl>k__BackingField: https://asp.net/
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Microsoft.AspNetCore.SignalR
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: R3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.2.9
+      <IsManuallyInstalled>k__BackingField: 1
+      dependencies:
+      - <TargetFramework>k__BackingField: net6.0
+      - <TargetFramework>k__BackingField: net8.0
+      - <TargetFramework>k__BackingField: .NETStandard2.0
+      - <TargetFramework>k__BackingField: .NETStandard2.1
+      dependenciesFetched: 1
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/r3/1.2.9/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.2.9
+      - <FullVersion>k__BackingField: 1.2.8
+      - <FullVersion>k__BackingField: 1.2.7
+      - <FullVersion>k__BackingField: 1.2.6
+      - <FullVersion>k__BackingField: 1.2.5
+      - <FullVersion>k__BackingField: 1.2.4
+      - <FullVersion>k__BackingField: 1.2.3
+      - <FullVersion>k__BackingField: 1.2.2
+      - <FullVersion>k__BackingField: 1.2.1
+      - <FullVersion>k__BackingField: 1.2.0
+      - <FullVersion>k__BackingField: 1.1.16
+      - <FullVersion>k__BackingField: 1.1.15
+      - <FullVersion>k__BackingField: 1.1.14
+      - <FullVersion>k__BackingField: 1.1.13
+      - <FullVersion>k__BackingField: 1.1.12
+      - <FullVersion>k__BackingField: 1.1.11
+      - <FullVersion>k__BackingField: 1.1.10
+      - <FullVersion>k__BackingField: 1.1.9
+      - <FullVersion>k__BackingField: 1.1.8
+      - <FullVersion>k__BackingField: 1.1.7
+      - <FullVersion>k__BackingField: 1.1.6
+      - <FullVersion>k__BackingField: 1.1.5
+      - <FullVersion>k__BackingField: 1.1.4
+      - <FullVersion>k__BackingField: 1.1.3
+      - <FullVersion>k__BackingField: 1.1.2
+      - <FullVersion>k__BackingField: 1.1.1
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.4
+      - <FullVersion>k__BackingField: 1.0.3
+      - <FullVersion>k__BackingField: 1.0.2
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      - <FullVersion>k__BackingField: 0.1.23
+      - <FullVersion>k__BackingField: 0.1.22
+      - <FullVersion>k__BackingField: 0.1.21
+      - <FullVersion>k__BackingField: 0.1.20
+      - <FullVersion>k__BackingField: 0.1.19
+      - <FullVersion>k__BackingField: 0.1.18
+      - <FullVersion>k__BackingField: 0.1.17
+      - <FullVersion>k__BackingField: 0.1.16
+      - <FullVersion>k__BackingField: 0.1.15
+      - <FullVersion>k__BackingField: 0.1.14
+      - <FullVersion>k__BackingField: 0.1.13
+      - <FullVersion>k__BackingField: 0.1.12
+      - <FullVersion>k__BackingField: 0.1.11
+      - <FullVersion>k__BackingField: 0.1.10
+      - <FullVersion>k__BackingField: 0.1.9
+      - <FullVersion>k__BackingField: 0.1.8
+      - <FullVersion>k__BackingField: 0.1.7
+      - <FullVersion>k__BackingField: 0.1.6
+      - <FullVersion>k__BackingField: 0.1.5
+      - <FullVersion>k__BackingField: 0.1.4
+      - <FullVersion>k__BackingField: 0.1.3
+      - <FullVersion>k__BackingField: 0.1.2
+      - <FullVersion>k__BackingField: 0.1.1
+      - <FullVersion>k__BackingField: 0.1.0
+      - <FullVersion>k__BackingField: 0.0.4
+      - <FullVersion>k__BackingField: 0.0.3
+      - <FullVersion>k__BackingField: 0.0.2
+      - <FullVersion>k__BackingField: 0.0.1
+      <Authors>k__BackingField:
+      - Cysharp
+      <Description>k__BackingField: The evolution of dotnet/reactive and UniRx.
+      <TotalDownloads>k__BackingField: 116211
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/R3/1.2.9/license
+      <ProjectUrl>k__BackingField: https://github.com/Cysharp/R3
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: R3
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.AspNet.SignalR.ServiceBus3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 2.4.3
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.servicebus3/2.4.3/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 2.4.3
+      - <FullVersion>k__BackingField: 2.4.2
+      - <FullVersion>k__BackingField: 2.4.1
+      - <FullVersion>k__BackingField: 2.4.0
+      - <FullVersion>k__BackingField: 2.3.0
+      - <FullVersion>k__BackingField: 2.2.3
+      - <FullVersion>k__BackingField: 2.2.2
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: Service Bus v3 messaging backplane for scaling
+        out of ASP.NET SignalR applications in a web-farm.
+      <TotalDownloads>k__BackingField: 1890756
+      <LicenseUrl>k__BackingField: https://raw.githubusercontent.com/SignalR/SignalR/2.3.0/LICENSE.txt
+      <ProjectUrl>k__BackingField: https://www.asp.net/signalr
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Microsoft ASP.NET SignalR Service Bus v3 Messaging
+        Backplane
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.AspNet.SignalR.Utils
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 2.4.3
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.aspnet.signalr.utils/2.4.3/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 2.4.3
+      - <FullVersion>k__BackingField: 2.4.2
+      - <FullVersion>k__BackingField: 2.4.1
+      - <FullVersion>k__BackingField: 2.4.0
+      - <FullVersion>k__BackingField: 2.3.0
+      - <FullVersion>k__BackingField: 2.2.3
+      - <FullVersion>k__BackingField: 2.2.2
+      - <FullVersion>k__BackingField: 2.2.1
+      - <FullVersion>k__BackingField: 2.2.0
+      - <FullVersion>k__BackingField: 2.1.2
+      - <FullVersion>k__BackingField: 2.1.1
+      - <FullVersion>k__BackingField: 2.1.0
+      - <FullVersion>k__BackingField: 2.0.3
+      - <FullVersion>k__BackingField: 2.0.2
+      - <FullVersion>k__BackingField: 2.0.1
+      - <FullVersion>k__BackingField: 2.0.0
+      - <FullVersion>k__BackingField: 1.2.2
+      - <FullVersion>k__BackingField: 1.2.1
+      - <FullVersion>k__BackingField: 1.2.0
+      - <FullVersion>k__BackingField: 1.1.4
+      - <FullVersion>k__BackingField: 1.1.3
+      - <FullVersion>k__BackingField: 1.1.2
+      - <FullVersion>k__BackingField: 1.1.1
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Command line utilities for ASP.NET SignalR.
+
+        This
+        package was built from the source at:
+
+        https://github.com/SignalR/SignalR/tree/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc'
+      <TotalDownloads>k__BackingField: 1193598
+      <LicenseUrl>k__BackingField: https://raw.githubusercontent.com/SignalR/SignalR/2.3.0/LICENSE.txt
+      <ProjectUrl>k__BackingField: https://www.asp.net/signalr
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Microsoft.AspNet.SignalR.Utils
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Rebex.Pop3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 7.0.9048
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/rebex.pop3/7.0.9048/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 7.0.9048
+      - <FullVersion>k__BackingField: 7.0.8943
+      - <FullVersion>k__BackingField: 7.0.8865
+      - <FullVersion>k__BackingField: 7.0.8816
+      - <FullVersion>k__BackingField: 7.0.8755
+      - <FullVersion>k__BackingField: 7.0.8720
+      - <FullVersion>k__BackingField: 7.0.8657
+      - <FullVersion>k__BackingField: 7.0.8581
+      - <FullVersion>k__BackingField: 6.0.8930
+      - <FullVersion>k__BackingField: 6.0.8814
+      - <FullVersion>k__BackingField: 6.0.8580
+      - <FullVersion>k__BackingField: 6.0.8558
+      - <FullVersion>k__BackingField: 6.0.8509
+      - <FullVersion>k__BackingField: 6.0.8432
+      - <FullVersion>k__BackingField: 6.0.8372
+      - <FullVersion>k__BackingField: 6.0.8348
+      - <FullVersion>k__BackingField: 6.0.8334
+      - <FullVersion>k__BackingField: 6.0.8314
+      - <FullVersion>k__BackingField: 6.0.8295
+      - <FullVersion>k__BackingField: 6.0.8232
+      - <FullVersion>k__BackingField: 6.0.8181
+      - <FullVersion>k__BackingField: 6.0.8123
+      - <FullVersion>k__BackingField: 6.0.8060
+      - <FullVersion>k__BackingField: 6.0.8044
+      - <FullVersion>k__BackingField: 6.0.8000
+      - <FullVersion>k__BackingField: 5.0.8813
+      - <FullVersion>k__BackingField: 5.0.8666
+      - <FullVersion>k__BackingField: 5.0.8552
+      - <FullVersion>k__BackingField: 5.0.8508
+      - <FullVersion>k__BackingField: 5.0.8217
+      - <FullVersion>k__BackingField: 5.0.8117
+      - <FullVersion>k__BackingField: 5.0.7999
+      - <FullVersion>k__BackingField: 5.0.7970
+      - <FullVersion>k__BackingField: 5.0.7900
+      - <FullVersion>k__BackingField: 5.0.7888
+      - <FullVersion>k__BackingField: 5.0.7840
+      - <FullVersion>k__BackingField: 5.0.7800
+      - <FullVersion>k__BackingField: 5.0.7733
+      - <FullVersion>k__BackingField: 5.0.7620
+      - <FullVersion>k__BackingField: 5.0.7579
+      - <FullVersion>k__BackingField: 5.0.7501
+      - <FullVersion>k__BackingField: 5.0.7500
+      - <FullVersion>k__BackingField: 5.0.7450
+      - <FullVersion>k__BackingField: 5.0.7390
+      - <FullVersion>k__BackingField: 5.0.7357
+      - <FullVersion>k__BackingField: 5.0.7320
+      - <FullVersion>k__BackingField: 5.0.7290
+      - <FullVersion>k__BackingField: 5.0.7244
+      - <FullVersion>k__BackingField: 5.0.7206
+      - <FullVersion>k__BackingField: 5.0.7161
+      - <FullVersion>k__BackingField: 5.0.7119
+      - <FullVersion>k__BackingField: 5.0.7077
+      - <FullVersion>k__BackingField: 5.0.7027
+      - <FullVersion>k__BackingField: 2.0.6930
+      - <FullVersion>k__BackingField: 2.0.6874
+      - <FullVersion>k__BackingField: 2.0.6821
+      - <FullVersion>k__BackingField: 2.0.6755
+      - <FullVersion>k__BackingField: 2.0.6690
+      - <FullVersion>k__BackingField: 2.0.6666
+      - <FullVersion>k__BackingField: 2.0.6586
+      - <FullVersion>k__BackingField: 2.0.6565
+      - <FullVersion>k__BackingField: 2.0.6534
+      - <FullVersion>k__BackingField: 2.0.6508
+      - <FullVersion>k__BackingField: 2.0.6461
+      - <FullVersion>k__BackingField: 2.0.6426
+      - <FullVersion>k__BackingField: 2.0.6391
+      - <FullVersion>k__BackingField: 2.0.6339
+      <Authors>k__BackingField:
+      - "REBEX \u010CR s.r.o."
+      <Description>k__BackingField: 'Rebex.Pop3 is part of Rebex Secure Mail - a
+        set of mail libraries that provide all you need for sending, receiving, encrypting,
+        decrypting, signing, verifying, loading, saving and processing e-mail messages.
+        Includes IMAP, EWS (Exchange Web Services), POP3 and SMTP clients; a high-level
+        MailMessage API and a low-level MIME/SMIME API.
+
+
+        This is a paid
+        commercial product with a free 30-day trial:
+
+
+        - Trial mode: Start
+        your free 30-day trial by generating your trial key at https://rebex.net/support/trial-key.aspx
+
+        -
+        Licensed mode: Purchase the product at https://rebex.net/shop/ and get your
+        full license key at https://rebex.net/protected/nuget
+
+
+        When the
+        full license key is provided, NuGet.org repository can be used to retrieve
+        versions of Rebex components covered by your support contract.
+
+
+        Supported
+        platforms:
+
+        - .NET 8 on Windows, Linux, macOS, Android, iOS/tvOS
+
+        -
+        .NET 7 on Windows, Linux, macOS, Android, iOS/tvOS
+
+        - .NET 6 on Windows,
+        Linux, macOS
+
+        - .NET 5 on Windows, Linux, macOS
+
+        - .NET Framework
+        4.0, 4.5.x, 4.6.x, 4.7.x, 4.8.x
+
+        - .NET Framework 3.5 SP1
+
+        -
+        .NET Core 3.1 on Windows, Linux, macOS
+
+        - Xamarin.Android (10.1 and
+        higher; via .NET Standard 2.1)
+
+        - Xamarin.iOS (13.10 and higher;
+        via .NET Standard 2.1)
+
+        - Mono 6.0 or higher on Linux and macOS'
+      <TotalDownloads>k__BackingField: 316443
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Rebex.Pop3/7.0.9048/license
+      <ProjectUrl>k__BackingField: http://www.rebex.net/
+      <Summary>k__BackingField: POP3 and POP3/TLS client library for .NET
+      <Title>k__BackingField: Rebex POP3 7.0.9048
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Hl7.Fhir.R4B
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 5.10.3
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/hl7.fhir.r4b/5.10.3/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 5.10.3
+      - <FullVersion>k__BackingField: 5.10.2
+      - <FullVersion>k__BackingField: 5.10.1
+      - <FullVersion>k__BackingField: 5.10.0
+      - <FullVersion>k__BackingField: 5.9.1
+      - <FullVersion>k__BackingField: 5.9.0
+      - <FullVersion>k__BackingField: 5.8.2
+      - <FullVersion>k__BackingField: 5.8.1
+      - <FullVersion>k__BackingField: 5.8.0
+      - <FullVersion>k__BackingField: 5.7.0
+      - <FullVersion>k__BackingField: 5.6.1
+      - <FullVersion>k__BackingField: 5.6.0
+      - <FullVersion>k__BackingField: 5.5.1
+      - <FullVersion>k__BackingField: 5.5.0
+      - <FullVersion>k__BackingField: 5.4.0
+      - <FullVersion>k__BackingField: 5.3.0
+      - <FullVersion>k__BackingField: 5.2.0
+      - <FullVersion>k__BackingField: 5.1.0
+      - <FullVersion>k__BackingField: 5.0.0
+      - <FullVersion>k__BackingField: 4.3.0
+      - <FullVersion>k__BackingField: 4.2.1
+      - <FullVersion>k__BackingField: 4.2.0
+      - <FullVersion>k__BackingField: 4.1.0
+      - <FullVersion>k__BackingField: 4.0.0
+      - <FullVersion>k__BackingField: 3.8.3
+      - <FullVersion>k__BackingField: 3.8.2
+      - <FullVersion>k__BackingField: 3.8.1
+      - <FullVersion>k__BackingField: 3.8.0
+      - <FullVersion>k__BackingField: 3.7.0
+      - <FullVersion>k__BackingField: 3.6.0
+      - <FullVersion>k__BackingField: 3.5.0
+      - <FullVersion>k__BackingField: 3.4.0
+      - <FullVersion>k__BackingField: 3.3.0
+      - <FullVersion>k__BackingField: 3.2.0
+      <Authors>k__BackingField:
+      - Firely (info@fire.ly) and contributors
+      <Description>k__BackingField: Firely's SDK for working with HL7 FHIR R4B. This
+        is the root package for the SDK includes core functionality to working with
+        RESTful FHIR servers, POCO classes for FHIR, parsing/serialization of FHIR
+        data and working with conformance data and terminologies.
+      <TotalDownloads>k__BackingField: 402234
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Hl7.Fhir.R4B/5.10.3/license
+      <ProjectUrl>k__BackingField: https://github.com/FirelyTeam/firely-net-sdk
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Firely's SDK for working with HL7 FHIR R4B (4.3.0)
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Vonk.Fhir.R3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 5.10.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: 
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 5.10.0
+      - <FullVersion>k__BackingField: 5.9.1
+      - <FullVersion>k__BackingField: 5.9.0
+      - <FullVersion>k__BackingField: 5.8.0
+      - <FullVersion>k__BackingField: 5.7.0
+      - <FullVersion>k__BackingField: 5.6.0
+      - <FullVersion>k__BackingField: 5.5.2
+      - <FullVersion>k__BackingField: 5.5.1
+      - <FullVersion>k__BackingField: 5.5.0
+      - <FullVersion>k__BackingField: 5.4.0
+      - <FullVersion>k__BackingField: 5.3.0
+      - <FullVersion>k__BackingField: 5.2.0
+      - <FullVersion>k__BackingField: 5.1.1
+      - <FullVersion>k__BackingField: 5.1.0
+      - <FullVersion>k__BackingField: 5.0.0
+      - <FullVersion>k__BackingField: 4.12.0
+      - <FullVersion>k__BackingField: 4.11.0
+      - <FullVersion>k__BackingField: 4.10.2
+      - <FullVersion>k__BackingField: 4.10.1
+      - <FullVersion>k__BackingField: 4.10.0
+      - <FullVersion>k__BackingField: 4.9.3
+      - <FullVersion>k__BackingField: 4.9.2
+      - <FullVersion>k__BackingField: 4.9.1
+      - <FullVersion>k__BackingField: 4.9.0
+      - <FullVersion>k__BackingField: 4.8.2
+      - <FullVersion>k__BackingField: 4.8.1
+      - <FullVersion>k__BackingField: 4.8.0
+      - <FullVersion>k__BackingField: 4.7.1
+      - <FullVersion>k__BackingField: 4.7.0
+      - <FullVersion>k__BackingField: 4.6.2
+      - <FullVersion>k__BackingField: 4.6.1
+      - <FullVersion>k__BackingField: 4.6.0
+      - <FullVersion>k__BackingField: 4.5.1
+      - <FullVersion>k__BackingField: 4.5.0
+      - <FullVersion>k__BackingField: 4.4.0
+      - <FullVersion>k__BackingField: 4.3.0
+      - <FullVersion>k__BackingField: 4.2.1
+      - <FullVersion>k__BackingField: 4.2.0
+      - <FullVersion>k__BackingField: 4.1.3
+      - <FullVersion>k__BackingField: 4.1.2
+      - <FullVersion>k__BackingField: 4.1.1
+      - <FullVersion>k__BackingField: 4.1.0
+      - <FullVersion>k__BackingField: 4.0.0
+      - <FullVersion>k__BackingField: 3.9.3
+      - <FullVersion>k__BackingField: 3.9.2
+      - <FullVersion>k__BackingField: 3.9.1
+      - <FullVersion>k__BackingField: 3.9.0
+      - <FullVersion>k__BackingField: 3.8.0
+      - <FullVersion>k__BackingField: 3.7.0
+      - <FullVersion>k__BackingField: 3.6.1
+      - <FullVersion>k__BackingField: 3.6.0
+      - <FullVersion>k__BackingField: 3.5.0
+      - <FullVersion>k__BackingField: 3.4.0
+      - <FullVersion>k__BackingField: 3.3.0
+      - <FullVersion>k__BackingField: 3.2.1
+      - <FullVersion>k__BackingField: 3.2.0
+      - <FullVersion>k__BackingField: 3.1.3
+      - <FullVersion>k__BackingField: 3.1.1
+      - <FullVersion>k__BackingField: 3.1.0
+      - <FullVersion>k__BackingField: 3.0.0
+      - <FullVersion>k__BackingField: 2.2.0
+      - <FullVersion>k__BackingField: 2.1.0
+      - <FullVersion>k__BackingField: 2.0.1
+      - <FullVersion>k__BackingField: 2.0.0
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.0
+      <Authors>k__BackingField:
+      - Christiaan Knaap and contributors
+      <Description>k__BackingField: Package Description
+      <TotalDownloads>k__BackingField: 57640
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Vonk.Fhir.R3/5.10.0/license
+      <ProjectUrl>k__BackingField: https://fire.ly/products/server
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Vonk.Fhir.R3
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: ObservableCollections.R3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 3.3.1
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/observablecollections.r3/3.3.1/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 3.3.1
+      - <FullVersion>k__BackingField: 3.3.0
+      - <FullVersion>k__BackingField: 3.2.0
+      - <FullVersion>k__BackingField: 3.1.1
+      - <FullVersion>k__BackingField: 3.1.0
+      - <FullVersion>k__BackingField: 3.0.5
+      - <FullVersion>k__BackingField: 3.0.4
+      - <FullVersion>k__BackingField: 3.0.3
+      - <FullVersion>k__BackingField: 3.0.2
+      - <FullVersion>k__BackingField: 3.0.1
+      - <FullVersion>k__BackingField: 3.0.0
+      - <FullVersion>k__BackingField: 2.2.2
+      - <FullVersion>k__BackingField: 2.2.1
+      - <FullVersion>k__BackingField: 2.2.0
+      - <FullVersion>k__BackingField: 2.1.4
+      - <FullVersion>k__BackingField: 2.1.3
+      - <FullVersion>k__BackingField: 2.1.2
+      - <FullVersion>k__BackingField: 2.1.1
+      - <FullVersion>k__BackingField: 2.1.0
+      - <FullVersion>k__BackingField: 2.0.2
+      - <FullVersion>k__BackingField: 2.0.1
+      - <FullVersion>k__BackingField: 2.0.0
+      <Authors>k__BackingField:
+      - Cysharp
+      <Description>k__BackingField: R3 Extensions of ObservableCollections.
+      <TotalDownloads>k__BackingField: 26712
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/ObservableCollections.R3/3.3.1/license
+      <ProjectUrl>k__BackingField: https://github.com/Cysharp/ObservableCollections
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: ObservableCollections.R3
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: R3Extensions.Avalonia
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.2.9
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/r3extensions.avalonia/1.2.9/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.2.9
+      - <FullVersion>k__BackingField: 1.2.8
+      - <FullVersion>k__BackingField: 1.2.7
+      - <FullVersion>k__BackingField: 1.2.6
+      - <FullVersion>k__BackingField: 1.2.5
+      - <FullVersion>k__BackingField: 1.2.4
+      - <FullVersion>k__BackingField: 1.2.3
+      - <FullVersion>k__BackingField: 1.2.2
+      - <FullVersion>k__BackingField: 1.2.1
+      - <FullVersion>k__BackingField: 1.2.0
+      - <FullVersion>k__BackingField: 1.1.16
+      - <FullVersion>k__BackingField: 1.1.15
+      - <FullVersion>k__BackingField: 1.1.14
+      - <FullVersion>k__BackingField: 1.1.13
+      - <FullVersion>k__BackingField: 1.1.12
+      - <FullVersion>k__BackingField: 1.1.11
+      - <FullVersion>k__BackingField: 1.1.10
+      - <FullVersion>k__BackingField: 1.1.9
+      - <FullVersion>k__BackingField: 1.1.8
+      - <FullVersion>k__BackingField: 1.1.7
+      - <FullVersion>k__BackingField: 1.1.6
+      - <FullVersion>k__BackingField: 1.1.5
+      - <FullVersion>k__BackingField: 1.1.4
+      - <FullVersion>k__BackingField: 1.1.3
+      - <FullVersion>k__BackingField: 1.1.2
+      - <FullVersion>k__BackingField: 1.1.1
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.4
+      - <FullVersion>k__BackingField: 1.0.3
+      - <FullVersion>k__BackingField: 1.0.2
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      - <FullVersion>k__BackingField: 0.1.23
+      - <FullVersion>k__BackingField: 0.1.22
+      - <FullVersion>k__BackingField: 0.1.21
+      - <FullVersion>k__BackingField: 0.1.20
+      - <FullVersion>k__BackingField: 0.1.19
+      - <FullVersion>k__BackingField: 0.1.18
+      - <FullVersion>k__BackingField: 0.1.17
+      - <FullVersion>k__BackingField: 0.1.16
+      - <FullVersion>k__BackingField: 0.1.15
+      - <FullVersion>k__BackingField: 0.1.14
+      - <FullVersion>k__BackingField: 0.1.13
+      - <FullVersion>k__BackingField: 0.1.12
+      - <FullVersion>k__BackingField: 0.1.11
+      <Authors>k__BackingField:
+      - Cysharp
+      <Description>k__BackingField: Avalonia Provider and Methods for R3.
+      <TotalDownloads>k__BackingField: 13878
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/R3Extensions.Avalonia/1.2.9/license
+      <ProjectUrl>k__BackingField: https://github.com/Cysharp/R3
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: R3Extensions.Avalonia
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.AspNet.SignalR.ServiceBus3.tr
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 2.4.3
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: 
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 2.4.3
+      - <FullVersion>k__BackingField: 2.4.2
+      - <FullVersion>k__BackingField: 2.4.1
+      - <FullVersion>k__BackingField: 2.4.0
+      - <FullVersion>k__BackingField: 2.3.0
+      - <FullVersion>k__BackingField: 2.2.3
+      - <FullVersion>k__BackingField: 2.2.2
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: "Bu paket ASP.NET SignalR ServiceBus3 i\xE7in
+        T\xFCrk\xE7e uydu derlemelerini i\xE7erir."
+      <TotalDownloads>k__BackingField: 33682
+      <LicenseUrl>k__BackingField: https://raw.githubusercontent.com/SignalR/SignalR/2.3.0/LICENSE.txt
+      <ProjectUrl>k__BackingField: https://www.asp.net/signalr
+      <Summary>k__BackingField: "Microsoft.AspNet.SignalR.ServiceBus3 paketi i\xE7in
+        {T\xFCrk\xE7e} kaynaklar"
+      <Title>k__BackingField: "Microsoft ASP.NET SignalR ServiceBus3 Libraries {T\xFCrk\xE7e}
+        Kaynaklar"
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: FhirKhit.Tools.R3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 2.12.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: 
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 2.12.0
+      - <FullVersion>k__BackingField: 2.11.0
+      - <FullVersion>k__BackingField: 2.10.0
+      - <FullVersion>k__BackingField: 2.9.0
+      - <FullVersion>k__BackingField: 2.8.0
+      - <FullVersion>k__BackingField: 2.7.0
+      - <FullVersion>k__BackingField: 2.6.0
+      - <FullVersion>k__BackingField: 2.5.0
+      - <FullVersion>k__BackingField: 2.4.0
+      - <FullVersion>k__BackingField: 2.3.0
+      - <FullVersion>k__BackingField: 2.2.0
+      - <FullVersion>k__BackingField: 2.1.0
+      - <FullVersion>k__BackingField: 2.0.0
+      - <FullVersion>k__BackingField: 1.31.0
+      <Authors>k__BackingField:
+      - Kurt W. Allen
+      <Description>k__BackingField: FhirKhit tools for Fhir STU 3
+      <TotalDownloads>k__BackingField: 12973
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/FhirKhit.Tools.R3/2.12.0/license
+      <ProjectUrl>k__BackingField: https://github.com/Gjoll/FhirKhit
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: FhirKhit.Tools.R3
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: GroovyMp3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 0.1.3
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: 
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 0.1.3
+      - <FullVersion>k__BackingField: 0.1.2
+      - <FullVersion>k__BackingField: 0.1.1
+      - <FullVersion>k__BackingField: 0.1.0
+      <Authors>k__BackingField:
+      - Jon Gooch
+      <Description>k__BackingField: A C# native implementation of an MP3 encoder
+        / decoder, based on LAME and Jump3r.
+      <TotalDownloads>k__BackingField: 65504
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: https://github.com/jongoochgithub/GroovyCodecs
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: GroovyMp3
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: R3Extensions.WPF
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.2.9
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/r3extensions.wpf/1.2.9/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.2.9
+      - <FullVersion>k__BackingField: 1.2.8
+      - <FullVersion>k__BackingField: 1.2.7
+      - <FullVersion>k__BackingField: 1.2.6
+      - <FullVersion>k__BackingField: 1.2.5
+      - <FullVersion>k__BackingField: 1.2.4
+      - <FullVersion>k__BackingField: 1.2.3
+      - <FullVersion>k__BackingField: 1.2.2
+      - <FullVersion>k__BackingField: 1.2.1
+      - <FullVersion>k__BackingField: 1.2.0
+      - <FullVersion>k__BackingField: 1.1.16
+      - <FullVersion>k__BackingField: 1.1.15
+      - <FullVersion>k__BackingField: 1.1.14
+      - <FullVersion>k__BackingField: 1.1.13
+      - <FullVersion>k__BackingField: 1.1.12
+      - <FullVersion>k__BackingField: 1.1.11
+      - <FullVersion>k__BackingField: 1.1.10
+      - <FullVersion>k__BackingField: 1.1.9
+      - <FullVersion>k__BackingField: 1.1.8
+      - <FullVersion>k__BackingField: 1.1.7
+      - <FullVersion>k__BackingField: 1.1.6
+      - <FullVersion>k__BackingField: 1.1.5
+      - <FullVersion>k__BackingField: 1.1.4
+      - <FullVersion>k__BackingField: 1.1.3
+      - <FullVersion>k__BackingField: 1.1.2
+      - <FullVersion>k__BackingField: 1.1.1
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.4
+      - <FullVersion>k__BackingField: 1.0.3
+      - <FullVersion>k__BackingField: 1.0.2
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      - <FullVersion>k__BackingField: 0.1.23
+      - <FullVersion>k__BackingField: 0.1.22
+      - <FullVersion>k__BackingField: 0.1.21
+      - <FullVersion>k__BackingField: 0.1.20
+      - <FullVersion>k__BackingField: 0.1.19
+      - <FullVersion>k__BackingField: 0.1.18
+      - <FullVersion>k__BackingField: 0.1.17
+      - <FullVersion>k__BackingField: 0.1.16
+      - <FullVersion>k__BackingField: 0.1.15
+      - <FullVersion>k__BackingField: 0.1.14
+      - <FullVersion>k__BackingField: 0.1.13
+      - <FullVersion>k__BackingField: 0.1.12
+      - <FullVersion>k__BackingField: 0.1.11
+      <Authors>k__BackingField:
+      - Cysharp
+      <Description>k__BackingField: WPF Provider and Methods for R3.
+      <TotalDownloads>k__BackingField: 6830
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/R3Extensions.WPF/1.2.9/license
+      <ProjectUrl>k__BackingField: https://github.com/Cysharp/R3
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: R3Extensions.WPF
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Eir.FhirKhit.R3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.9.14
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: 
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.9.14
+      - <FullVersion>k__BackingField: 1.9.13
+      - <FullVersion>k__BackingField: 1.9.7
+      - <FullVersion>k__BackingField: 1.9.6
+      - <FullVersion>k__BackingField: 1.9.5
+      - <FullVersion>k__BackingField: 1.9.4
+      - <FullVersion>k__BackingField: 1.9.3
+      - <FullVersion>k__BackingField: 1.9.2
+      - <FullVersion>k__BackingField: 1.6.2
+      - <FullVersion>k__BackingField: 1.6.1
+      - <FullVersion>k__BackingField: 1.6.0
+      - <FullVersion>k__BackingField: 1.5.0
+      - <FullVersion>k__BackingField: 1.4.9
+      - <FullVersion>k__BackingField: 1.4.8
+      - <FullVersion>k__BackingField: 1.4.7
+      - <FullVersion>k__BackingField: 1.4.6
+      - <FullVersion>k__BackingField: 1.4.5
+      - <FullVersion>k__BackingField: 1.4.3
+      - <FullVersion>k__BackingField: 1.4.1
+      - <FullVersion>k__BackingField: 1.4.0
+      - <FullVersion>k__BackingField: 1.3.1
+      - <FullVersion>k__BackingField: 1.3.0
+      - <FullVersion>k__BackingField: 1.2.0
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.0
+      <Authors>k__BackingField:
+      - Kurt W. Allen
+      <Description>k__BackingField: FhirKhit tools for Fhir STU 3
+      <TotalDownloads>k__BackingField: 12265
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Eir.FhirKhit.R3/1.9.14/license
+      <ProjectUrl>k__BackingField: https://github.com/Gjoll/Eir.FhirKhit
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Eir.FhirKhit.R3
+      <DownloadUrl>k__BackingField: 
+  serializableToInstallPackages: []
+  serializableUpdatePackages:
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.Bcl.AsyncInterfaces
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 8.0.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/8.0.0/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 8.0.0
+      - <FullVersion>k__BackingField: 7.0.0
+      - <FullVersion>k__BackingField: 6.0.0
+      - <FullVersion>k__BackingField: 5.0.0
+      - <FullVersion>k__BackingField: 1.1.1
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Provides the IAsyncEnumerable<T> and IAsyncDisposable
+        interfaces and helper types for .NET Standard 2.0. This package is not required
+        starting with .NET Standard 2.1 and .NET Core 3.0.
+
+
+        Commonly Used
+        Types:
+
+        System.IAsyncDisposable
+
+        System.Collections.Generic.IAsyncEnumerable
+
+        System.Collections.Generic.IAsyncEnumerator'
+      <TotalDownloads>k__BackingField: 2003406177
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Microsoft.Bcl.AsyncInterfaces/8.0.0/license
+      <ProjectUrl>k__BackingField: https://dot.net/
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Microsoft.Bcl.AsyncInterfaces
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: Microsoft.Bcl.TimeProvider
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 8.0.1
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.bcl.timeprovider/8.0.1/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 8.0.1
+      - <FullVersion>k__BackingField: 8.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Provides support for system time abstraction
+        primitives for .NET Framework and .NET Standard.
+
+
+        Commonly Used
+        Types:
+
+        System.TimeProvider
+
+        System.ITimer'
+      <TotalDownloads>k__BackingField: 24452153
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Microsoft.Bcl.TimeProvider/8.0.1/license
+      <ProjectUrl>k__BackingField: https://dot.net/
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: Microsoft.Bcl.TimeProvider
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: R3
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 1.2.9
+      <IsManuallyInstalled>k__BackingField: 1
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/r3/1.2.9/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 1.2.9
+      - <FullVersion>k__BackingField: 1.2.8
+      - <FullVersion>k__BackingField: 1.2.7
+      - <FullVersion>k__BackingField: 1.2.6
+      - <FullVersion>k__BackingField: 1.2.5
+      - <FullVersion>k__BackingField: 1.2.4
+      - <FullVersion>k__BackingField: 1.2.3
+      - <FullVersion>k__BackingField: 1.2.2
+      - <FullVersion>k__BackingField: 1.2.1
+      - <FullVersion>k__BackingField: 1.2.0
+      - <FullVersion>k__BackingField: 1.1.16
+      - <FullVersion>k__BackingField: 1.1.15
+      - <FullVersion>k__BackingField: 1.1.14
+      - <FullVersion>k__BackingField: 1.1.13
+      - <FullVersion>k__BackingField: 1.1.12
+      - <FullVersion>k__BackingField: 1.1.11
+      - <FullVersion>k__BackingField: 1.1.10
+      - <FullVersion>k__BackingField: 1.1.9
+      - <FullVersion>k__BackingField: 1.1.8
+      - <FullVersion>k__BackingField: 1.1.7
+      - <FullVersion>k__BackingField: 1.1.6
+      - <FullVersion>k__BackingField: 1.1.5
+      - <FullVersion>k__BackingField: 1.1.4
+      - <FullVersion>k__BackingField: 1.1.3
+      - <FullVersion>k__BackingField: 1.1.2
+      - <FullVersion>k__BackingField: 1.1.1
+      - <FullVersion>k__BackingField: 1.1.0
+      - <FullVersion>k__BackingField: 1.0.4
+      - <FullVersion>k__BackingField: 1.0.3
+      - <FullVersion>k__BackingField: 1.0.2
+      - <FullVersion>k__BackingField: 1.0.1
+      - <FullVersion>k__BackingField: 1.0.0
+      - <FullVersion>k__BackingField: 0.1.23
+      - <FullVersion>k__BackingField: 0.1.22
+      - <FullVersion>k__BackingField: 0.1.21
+      - <FullVersion>k__BackingField: 0.1.20
+      - <FullVersion>k__BackingField: 0.1.19
+      - <FullVersion>k__BackingField: 0.1.18
+      - <FullVersion>k__BackingField: 0.1.17
+      - <FullVersion>k__BackingField: 0.1.16
+      - <FullVersion>k__BackingField: 0.1.15
+      - <FullVersion>k__BackingField: 0.1.14
+      - <FullVersion>k__BackingField: 0.1.13
+      - <FullVersion>k__BackingField: 0.1.12
+      - <FullVersion>k__BackingField: 0.1.11
+      - <FullVersion>k__BackingField: 0.1.10
+      - <FullVersion>k__BackingField: 0.1.9
+      - <FullVersion>k__BackingField: 0.1.8
+      - <FullVersion>k__BackingField: 0.1.7
+      - <FullVersion>k__BackingField: 0.1.6
+      - <FullVersion>k__BackingField: 0.1.5
+      - <FullVersion>k__BackingField: 0.1.4
+      - <FullVersion>k__BackingField: 0.1.3
+      - <FullVersion>k__BackingField: 0.1.2
+      - <FullVersion>k__BackingField: 0.1.1
+      - <FullVersion>k__BackingField: 0.1.0
+      - <FullVersion>k__BackingField: 0.0.4
+      - <FullVersion>k__BackingField: 0.0.3
+      - <FullVersion>k__BackingField: 0.0.2
+      - <FullVersion>k__BackingField: 0.0.1
+      <Authors>k__BackingField:
+      - Cysharp
+      <Description>k__BackingField: The evolution of dotnet/reactive and UniRx.
+      <TotalDownloads>k__BackingField: 116211
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/R3/1.2.9/license
+      <ProjectUrl>k__BackingField: https://github.com/Cysharp/R3
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: R3
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: System.ComponentModel.Annotations
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 5.0.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/system.componentmodel.annotations/5.0.0/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 5.0.0
+      - <FullVersion>k__BackingField: 4.7.0
+      - <FullVersion>k__BackingField: 4.6.0
+      - <FullVersion>k__BackingField: 4.5.0
+      - <FullVersion>k__BackingField: 4.4.1
+      - <FullVersion>k__BackingField: 4.4.0
+      - <FullVersion>k__BackingField: 4.3.0
+      - <FullVersion>k__BackingField: 4.1.0
+      - <FullVersion>k__BackingField: 4.0.10
+      - <FullVersion>k__BackingField: 4.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: "Provides attributes that are used to define
+        metadata for objects used as data sources.\n\nCommonly Used Types:\nSystem.ComponentModel.DataAnnotations.ValidationResult\nSystem.ComponentModel.DataAnnotations.IValidatableObject\nSystem.ComponentModel.DataAnnotations.ValidationAttribute\nSystem.ComponentModel.DataAnnotations.RequiredAttribute\nSystem.ComponentModel.DataAnnotations.StringLengthAttribute\nSystem.ComponentModel.DataAnnotations.DisplayAttribute\nSystem.ComponentModel.DataAnnotations.RegularExpressionAttribute\nSystem.ComponentModel.DataAnnotations.DataTypeAttribute\nSystem.ComponentModel.DataAnnotations.RangeAttribute\nSystem.ComponentModel.DataAnnotations.KeyAttribute\n
+        \nWhen using NuGet 3.x this package requires at least version 3.4."
+      <TotalDownloads>k__BackingField: 2164722682
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/System.ComponentModel.Annotations/5.0.0/license
+      <ProjectUrl>k__BackingField: https://github.com/dotnet/runtime
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: System.ComponentModel.Annotations
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: System.Runtime.CompilerServices.Unsafe
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 6.0.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 6.0.0
+      - <FullVersion>k__BackingField: 5.0.0
+      - <FullVersion>k__BackingField: 4.7.1
+      - <FullVersion>k__BackingField: 4.7.0
+      - <FullVersion>k__BackingField: 4.6.0
+      - <FullVersion>k__BackingField: 4.5.3
+      - <FullVersion>k__BackingField: 4.5.2
+      - <FullVersion>k__BackingField: 4.5.1
+      - <FullVersion>k__BackingField: 4.5.0
+      - <FullVersion>k__BackingField: 4.4.0
+      - <FullVersion>k__BackingField: 4.3.0
+      - <FullVersion>k__BackingField: 4.0.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Provides the System.Runtime.CompilerServices.Unsafe
+        class, which provides generic, low-level functionality for manipulating pointers.
+
+
+        Commonly
+        Used Types:
+
+        System.Runtime.CompilerServices.Unsafe'
+      <TotalDownloads>k__BackingField: 5304092301
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe/6.0.0/license
+      <ProjectUrl>k__BackingField: https://dot.net/
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: System.Runtime.CompilerServices.Unsafe
+      <DownloadUrl>k__BackingField: 
+  - packageLocal:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSource:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageType: 2
+    packageV2:
+      <Id>k__BackingField: 
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 
+      <IsManuallyInstalled>k__BackingField: 0
+      icon: {fileID: 0}
+      <DownloadUrl>k__BackingField: 
+      <IconUrl>k__BackingField: 
+      <RepositoryBranch>k__BackingField: 
+      <Dependencies>k__BackingField: []
+      <Authors>k__BackingField: []
+      <Description>k__BackingField: 
+      <TotalDownloads>k__BackingField: 0
+      <LicenseUrl>k__BackingField: 
+      <ProjectUrl>k__BackingField: 
+      <ReleaseNotes>k__BackingField: 
+      <RepositoryCommit>k__BackingField: 
+      <RepositoryType>k__BackingField: 0
+      <RepositoryUrl>k__BackingField: 
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: 
+      packageSourceV2:
+        <Name>k__BackingField: 
+        <SavedPath>k__BackingField: 
+        <SavedProtocolVersion>k__BackingField: 
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 0
+      versions: []
+    packageV3:
+      <Id>k__BackingField: System.Threading.Channels
+      <PackageVersion>k__BackingField:
+        <FullVersion>k__BackingField: 8.0.0
+      <IsManuallyInstalled>k__BackingField: 0
+      dependencies: []
+      dependenciesFetched: 0
+      icon: {fileID: 0}
+      iconUrl: https://api.nuget.org/v3-flatcontainer/system.threading.channels/8.0.0/icon
+      packageSource:
+        <Name>k__BackingField: nuget.org
+        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
+        <SavedProtocolVersion>k__BackingField: 
+        <UpdateSearchBatchSize>k__BackingField: 20
+        <UserName>k__BackingField: 
+        <SavedPassword>k__BackingField: 
+        <IsEnabled>k__BackingField: 1
+      <Versions>k__BackingField:
+      - <FullVersion>k__BackingField: 8.0.0
+      - <FullVersion>k__BackingField: 7.0.0
+      - <FullVersion>k__BackingField: 6.0.0
+      - <FullVersion>k__BackingField: 5.0.0
+      - <FullVersion>k__BackingField: 4.7.1
+      - <FullVersion>k__BackingField: 4.7.0
+      - <FullVersion>k__BackingField: 4.6.0
+      - <FullVersion>k__BackingField: 4.5.0
+      <Authors>k__BackingField:
+      - Microsoft
+      <Description>k__BackingField: 'Provides types for passing data between producers
+        and consumers.
+
+
+        Commonly Used Types:
+
+        System.Threading.Channel
+
+        System.Threading.Channel<T>'
+      <TotalDownloads>k__BackingField: 700657741
+      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/System.Threading.Channels/8.0.0/license
+      <ProjectUrl>k__BackingField: https://dot.net/
+      <Summary>k__BackingField: 
+      <Title>k__BackingField: System.Threading.Channels
+      <DownloadUrl>k__BackingField: 
