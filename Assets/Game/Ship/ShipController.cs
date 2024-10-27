@@ -26,11 +26,11 @@ namespace Assets.Game.Ship
                 PositionSensor = positionSensor;
                 PowerIndicator = powerIndicator;
             }
+            public override string ToString() => $"[Name: {Name}][Hover: {Hover}][PositionSensor: {PositionSensor}][PowerIndicator: {PowerIndicator}]";
         }
         private CompositeDisposable PositionSensorSubscriptions = new();
         [SerializeField] private List<HoverInfo> _hovers = new();
         public IReadOnlyList<HoverInfo> Hovers => _hovers;
-
 
         private void Start()
         {
@@ -38,6 +38,10 @@ namespace Assets.Game.Ship
                  .Chunk(TimeSpan.FromSeconds(0.5), UnityTimeProvider.Update)
                  .Where(changes => changes.Length > 0)
                  .Select(changes => changes[changes.Length - 1]);
+
+            Debug.Log(stream);
+            Debug.Log(stream.GetType());
+            Debug.Log(stream.GetType().Name);
 
             stream.Subscribe(values => Debug.Log($"Sensor positions: [{values}]")).AddTo(PositionSensorSubscriptions);
             stream.Subscribe(ProcessPositionSensorValue).AddTo(PositionSensorSubscriptions);
